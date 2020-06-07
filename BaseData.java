@@ -62,24 +62,24 @@ class BaseData {
         return guessTimes;
     }
 
-    public void setBlack(int count) {
-        black = count;
+    public void setBlack(int black) {
+        this.black = black;
     }
 
     public int getBlack() {
         return black;
     }
 
-    public void setWhite(int count) {
-        white = count;
+    public void setWhite(int white) {
+        this.white = white;
     }
 
     public int getWhite() {
         return white;
     }
 
-    public void setCorrectAns(String ansSet) {
-        correctAns = ansSet;
+    public void setCorrectAns(String correctAns) {
+        this.correctAns = correctAns;
     }
 
     public String getCorrectAns() {
